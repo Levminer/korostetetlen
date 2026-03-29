@@ -1,0 +1,10 @@
+# hozz létre egy db.config.php fájlt!!!
+
+<?php
+return array(
+    'host' => 'mysql.nethely.hu',
+    'dbname' => 'gyakorlat',
+    'user' => 'user',
+    'password' => 'password',
+    'charset_sql' => 'SET NAMES utf8 COLLATE utf8_hungarian_ci'
+);
