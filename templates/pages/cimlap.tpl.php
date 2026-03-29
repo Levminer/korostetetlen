@@ -5,7 +5,7 @@
 <h3>Megközelítése</h3>
 <p>Cegléddel és Jászkarajenővel a 4609-es, Szolnok térségével és Nagykőrössel a 4613-as, Abonnyal pedig a 4616-os út köti össze.</p>
 <h3>Története</h3>
-<p>Anonymus szerint Árpád fejedelem itt táborozott, s itt szemlélte meg seregét, amellyel Szer felé vonult, hogy megütközzön Zalán (Salán) bolgár fejedelemmel.
+<p class="tortenet">Anonymus szerint Árpád fejedelem itt táborozott, s itt szemlélte meg seregét, amellyel Szer felé vonult, hogy megütközzön Zalán (Salán) bolgár fejedelemmel.
 
 A Nagypengyom dűlőben bronzkori urnák, középkori település és temető nyomaira bukkantak a régészek. Feltételezhető, hogy a Bor-Kalán nemzetség szállásterületéhez tartozott, Nagykőröshöz hasonlóan.
 
