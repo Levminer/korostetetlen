@@ -9,7 +9,7 @@ if(isset($_POST['felhasznalo']) && isset($_POST['jelszo']) && isset($_POST['veze
         $sth = $dbh->prepare($sqlSelect);
         $sth->execute(array(':bejelentkezes' => $_POST['felhasznalo']));
         if($row = $sth->fetch(PDO::FETCH_ASSOC)) {
-            $uzenet = "A felhasználói név már foglalt!";
+            $uzenet = "A felhasználó név már foglalt!";
             $ujra = "true";
         }
         else {
@@ -21,7 +21,7 @@ if(isset($_POST['felhasznalo']) && isset($_POST['jelszo']) && isset($_POST['veze
                                  ':bejelentkezes' => $_POST['felhasznalo'], ':jelszo' => sha1($_POST['jelszo']))); 
             if($count = $stmt->rowCount()) {
                 $newid = $dbh->lastInsertId();
-                $uzenet = "A regisztrációja sikeres.<br>Azonosítója: {$newid}";                     
+                $uzenet = "A regisztrációja sikeres.";                     
                 $ujra = false;
             }
             else {
