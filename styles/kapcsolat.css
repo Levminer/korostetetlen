@@ -1,0 +1,70 @@
+.kapcsolat-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.kapcsolat-info iframe {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #dde4ea;
+}
+
+.kapcsolat-form-wrap form {
+    display: grid;
+    gap: 10px;
+}
+
+.kapcsolat-form-wrap input,
+.kapcsolat-form-wrap textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #cfd8e3;
+    border-radius: 8px;
+    font: inherit;
+}
+
+.kapcsolat-form-wrap button {
+    width: fit-content;
+    border: 0;
+    background: #1f5f8b;
+    color: #fff;
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.form-alert {
+    border-radius: 8px;
+    padding: 10px 12px;
+    margin-bottom: 12px;
+}
+
+.form-alert ul {
+    margin: 8px 0 0 18px;
+}
+
+.form-alert-error {
+    background: #fdecec;
+    border: 1px solid #f5b9b9;
+    color: #831f1f;
+}
+
+.form-alert-success {
+    background: #eaf8ee;
+    border: 1px solid #b8e3c1;
+    color: #1f5a2f;
+}
+
+.bekuldott-adatok {
+    margin-top: 14px;
+    border-top: 1px solid #dde4ea;
+    padding-top: 12px;
+}
+
+@media (max-width: 900px) {
+    .kapcsolat-layout {
+        grid-template-columns: 1fr;
+    }
+}

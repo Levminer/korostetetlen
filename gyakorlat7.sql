@@ -27,3 +27,16 @@ INSERT INTO `felhasznalok` (`id`,`csaladi_nev`,`uto_nev`,`bejelentkezes`,`jelszo
  (10,'Családi_10','Utónév_10','Login10',sha1('login10')),
  (11,'Családi_11','Utónév_11','Login11',sha1('login11')),
  (12,'Családi_12','Utónév_12','Login12',sha1('login12'));
+
+CREATE TABLE `kapcsolat_uzenetek` (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `kuldo_nev` varchar(100) NOT NULL default '',
+  `email` varchar(120) NOT NULL default '',
+  `targy` varchar(150) NOT NULL default '',
+  `uzenet` text NOT NULL,
+  `bejelentkezett` tinyint(1) NOT NULL default 0,
+  `kuldes_ideje` timestamp NOT NULL default CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+)
+ENGINE = MYISAM
+CHARACTER SET utf8 COLLATE utf8_general_ci;

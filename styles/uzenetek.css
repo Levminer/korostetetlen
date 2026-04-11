@@ -1,0 +1,33 @@
+.table-wrap {
+    overflow-x: auto;
+}
+
+.uzenetek-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.uzenetek-table th,
+.uzenetek-table td {
+    border: 1px solid #dde4ea;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.uzenetek-table th {
+    background: #eef4fb;
+    color: #1d3650;
+}
+
+.uzenetek-table tbody tr:nth-child(even) {
+    background: #fafcff;
+}
+
+.uzenetek-hiba {
+    color: #8a1f1f;
+    background: #fdecec;
+    border: 1px solid #f5b9b9;
+    padding: 10px 12px;
+    border-radius: 8px;
+}
