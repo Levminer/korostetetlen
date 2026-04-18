@@ -1,7 +1,6 @@
 <section class="kapcsolat-layout">
 	<div class="kapcsolat-info">
 		<h2>Kapcsolat</h2>
-		<p>Polgármester: <strong>Pásztor Roland</strong></p>
 
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2828.73015432763!2d19.69180127629231!3d46.906598336053605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4743da168d5496a3%3A0xa3007d1968637a1e!2sPizza%20Sprint!5e1!3m2!1sen!2shu!4v1776520880795!5m2!1sen!2shu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 		<p><a target="_blank" href="https://www.google.com/maps/place/Pizza+Sprint/@46.9065983,19.6918013,650m/data=!3m2!1e3!4b1!4m6!3m5!1s0x4743da168d5496a3:0xa3007d1968637a1e!8m2!3d46.9065947!4d19.6943762!16s%2Fg%2F11bxf_mhd9?entry=ttu&g_ep=EgoyMDI2MDQxNS4wIKXMDSoASAFQAw%3D%3D">Nagyobb térkép</a></p>
