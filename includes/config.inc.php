@@ -1,18 +1,18 @@
 <?php
 $ablakcim = array(
-    'cim' => 'Kőröstetétlen',
+    'cim' => 'Pizza',
 );
 
 $fejlec = array(
     'kepforras' => 'logo.png',
     'kepalt' => 'logo',
-	'cim' => 'Kőröstetétlen',
+	'cim' => 'Pizza',
 	'motto' => ''
 );
 
 $lablec = array(
     'copyright' => 'Copyright '.date("Y").'.',
-    'ceg' => 'Kőröstetétlen'
+    'ceg' => 'Pizza'
 );
 
 $oldalak = array(
