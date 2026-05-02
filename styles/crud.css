@@ -1,0 +1,159 @@
+.crud-layout {
+    display: grid;
+    grid-template-columns: minmax(280px, 360px) 1fr;
+    gap: 20px;
+}
+
+.crud-card {
+    border: 1px solid #dde4ea;
+    border-radius: 12px;
+    padding: 16px;
+    background: #fbfdff;
+}
+
+.crud-card h2,
+.crud-card h3 {
+    margin-top: 0;
+}
+
+.crud-sub {
+    margin-top: -4px;
+    color: #5e6d81;
+}
+
+.crud-alert {
+    border-radius: 8px;
+    padding: 10px 12px;
+    margin-bottom: 12px;
+}
+
+.crud-alert-error {
+    background: #fdecec;
+    border: 1px solid #f5b9b9;
+    color: #831f1f;
+}
+
+.crud-alert-success {
+    background: #eaf8ee;
+    border: 1px solid #b8e3c1;
+    color: #1f5a2f;
+}
+
+.crud-form {
+    display: grid;
+    gap: 10px;
+}
+
+.crud-form input,
+.crud-form textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #cfd8e3;
+    border-radius: 8px;
+    font: inherit;
+}
+
+.crud-radio-group {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.crud-radio-option {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 600;
+}
+
+.crud-radio-option input[type="radio"] {
+    width: auto;
+    margin: 0;
+}
+
+.crud-actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.crud-actions button,
+.crud-inline button {
+    border: 0;
+    border-radius: 8px;
+    padding: 9px 12px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.crud-actions button,
+.btn-edit {
+    background: #1f5f8b;
+}
+
+.crud-actions button:hover,
+.btn-edit:hover {
+    background: #17496c;
+}
+
+.btn-delete {
+    background: #9f2d2d;
+}
+
+.btn-delete:hover {
+    background: #7d2323;
+}
+
+.crud-reset {
+    text-decoration: none;
+    font-weight: 600;
+    color: #1f5f8b;
+}
+
+.crud-reset:hover {
+    text-decoration: underline;
+}
+
+.crud-table-wrap {
+    overflow-x: auto;
+}
+
+.crud-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.crud-table th,
+.crud-table td {
+    border: 1px solid #dde4ea;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.crud-table th {
+    background: #eef4fb;
+    color: #1d3650;
+}
+
+.crud-table tbody tr:nth-child(even) {
+    background: #fafcff;
+}
+
+.crud-inline {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.crud-inline form {
+    margin: 0;
+}
+
+@media (max-width: 980px) {
+    .crud-layout {
+        grid-template-columns: 1fr;
+    }
+}
